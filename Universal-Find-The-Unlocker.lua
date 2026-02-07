@@ -1,4 +1,4 @@
-local link = "https://raw.githubusercontent.com/NotMyst/Roblox-Luas/refs/heads/main/Find-The/"..tostring(game.PlaceId)..".lua"
+local link = "https://raw.githubusercontent.com/NotMyst/Roblox-Luas/refs/heads/main/Find-The/"..tostring(game.GameId)..".lua"
 local content = game:HttpGet(link)
 if content ~= "" then
     print("loading "..link)
