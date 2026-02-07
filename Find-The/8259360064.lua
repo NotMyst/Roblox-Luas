@@ -1,3 +1,5 @@
+-- https://www.roblox.com/games/136809562020158/Find-The-Rocks
+
 for _, v in next, workspace.Rocks:GetChildren() do
     if v:FindFirstChildOfClass("TouchTransmitter") then
         firetouchinterest(game.Players.LocalPlayer.Character.PrimaryPart, v, 1)
